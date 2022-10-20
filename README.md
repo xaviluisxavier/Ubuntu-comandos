@@ -82,3 +82,20 @@ nano example.conf
 #ServerName www.example.com
 ```
 
+Ativar o https:
+```
+1.
+cd /etc/apache2/sites-available
+
+2.
+ cp default-ssl.conf example-ssl.conf
+ 
+3.
+<VirtualHost www.example.pt:443>
+                ServerAdmin webmaster@localhost
+
+                DocumentRoot /var/www/example
+
+```
+
+
