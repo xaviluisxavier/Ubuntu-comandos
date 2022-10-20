@@ -64,5 +64,12 @@ a2dissite 000-default.conf
 
 a2ensite example
 ```
+Para usar nomes de dominios existentes:
+```
+1.
+nano /etc/hosts
 
+2.
+ipprivado + dominio
+```
 
