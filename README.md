@@ -2,10 +2,10 @@
 
 Update da máqina:
 ```
-$ sudp apt update
+$ sudo apt update
 ```
 
 Atualizar a máquina:
 ```
-$ sudp apt upgrad
+$ sudo apt upgrad
 ```
