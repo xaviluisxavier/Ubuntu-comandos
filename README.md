@@ -71,5 +71,14 @@ nano /etc/hosts
 
 2.
 ipprivado + dominio
+
+3.
+cd /etc/apache2/sites-available
+
+4.
+nano example.conf
+
+5. 
+#ServerName www.example.com
 ```
 
