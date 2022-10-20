@@ -48,6 +48,13 @@ Criar um documento e o rederecionar:
 echo "Bem vindo a www.example.pt!" > example/index.html
 ```
 
+Criar a sua propria página:
+```
+1.
+ cd /etc/apache2/sites-available
+2.
+ cp 000-default.conf example.conf
+```
 
 
 
