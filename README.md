@@ -113,6 +113,8 @@ Atualizar a máquina:
 ```
 sudo apt upgrade
 ```
+
+Instalar o Ubuntu Cliente:
 ```
 1.
 sudo apt install -y xfce4 xfce4-goodies
