@@ -43,6 +43,10 @@ Raízes do Documento  / permissoes
 /etc/apache2/apache2.conf
 ```
 
+Criar um documento e o rederecionar:
+```
+echo "Bem vindo a www.example.pt!" > example/index.html
+```
 
 
 
