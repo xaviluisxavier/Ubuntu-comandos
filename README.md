@@ -56,5 +56,13 @@ Criar a sua propria página:
  cp 000-default.conf example.conf
 ```
 
+Ativar o website e desativar o default:
+```
+cd etc/apache2/sites-enabled/
+
+a2dissite 000-default.conf 
+
+a2ensite example
+```
 
 
