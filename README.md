@@ -101,3 +101,27 @@ a2ensite example-ssl.conf
 ```
 
 
+# Ubuntu-Cliente
+
+
+Update da máqina:
+```
+sudo apt update
+```
+
+Atualizar a máquina:
+```
+sudo apt upgrade
+```
+Comando Instalar Ubuntu Desktop:
+
+```
+sudo apt install ubuntu-desktop
+```
+
+
+
+
+
+
+
