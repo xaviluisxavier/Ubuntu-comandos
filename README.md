@@ -7,12 +7,18 @@ $ sudo apt update
 
 Atualizar a máquina:
 ```
-$ sudo apt upgrad
+$ sudo apt upgrade
 ```
 
-Instaalar o Apach2(porta 80):
+Instalar o Apach2(porta 80):
 ```
 $ sudo apt install apache2
+```
+
+
+Verificar se a porta esta aberta:
+```
+$ ss -tln
 ```
 
 Visão geral da configuração do apache2:
