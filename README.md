@@ -95,6 +95,8 @@ cd /etc/apache2/sites-available
                 ServerAdmin webmaster@localhost
 
                 DocumentRoot /var/www/example
+4.
+a2ensite example-ssl.conf 
 
 ```
 
