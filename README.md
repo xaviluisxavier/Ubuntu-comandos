@@ -2,17 +2,17 @@
 
 Update da máqina:
 ```
-$ sudo apt update
+sudo apt update
 ```
 
 Atualizar a máquina:
 ```
-$ sudo apt upgrade
+sudo apt upgrade
 ```
 
 Instalar o Apach2(porta 80):
 ```
-$ sudo apt install apache2
+sudo apt install apache2
 ```
 
 
