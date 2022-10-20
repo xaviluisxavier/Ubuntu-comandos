@@ -45,6 +45,8 @@ Raízes do Documento  / permissoes
 
 Criar um documento e o rederecionar:
 ```
+mkdir example 
+
 echo "Bem vindo a www.example.pt!" > example/index.html
 ```
 
@@ -54,15 +56,19 @@ Criar a sua propria página:
  cd /etc/apache2/sites-available
 2.
  cp 000-default.conf example.conf
+3.
+<VirtualHost www.example.pt:80>
+DocumentRoot /var/www/example
+ 
 ```
 
 Ativar o website e desativar o default:
 ```
-cd etc/apache2/sites-enabled/
+cd /etc/apache2/sites-enabled
 
 a2dissite 000-default.conf 
 
-a2ensite example
+a2ensite example.conf
 ```
 Para usar nomes de dominios existentes:
 ```
@@ -92,8 +98,7 @@ cd /etc/apache2/sites-available
  
 3.
 <VirtualHost www.example.pt:443>
-                ServerAdmin webmaster@localhost
-
+                
                 DocumentRoot /var/www/example
 4.
 a2ensite example-ssl.conf 
