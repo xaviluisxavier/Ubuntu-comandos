@@ -92,16 +92,19 @@ nano example.conf
 Ativar o https:
 ```
 1.
+ sudo a2enmod ssl
+ 
+2.
 cd /etc/apache2/sites-available
 
-2.
+3.
  cp default-ssl.conf example-ssl.conf
  
-3.
+4.
 <VirtualHost www.example.pt:443>
                 
                 DocumentRoot /var/www/example
-4.
+5.
 a2ensite example-ssl.conf 
 
 ```
