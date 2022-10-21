@@ -58,6 +58,7 @@ Criar a sua propria página:
  cp 000-default.conf example.conf
 3.
 <VirtualHost www.example.pt:80>
+ServerName www.ociden.pt
 DocumentRoot /var/www/example
  
 ```
